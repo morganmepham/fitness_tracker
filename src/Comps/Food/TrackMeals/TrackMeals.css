@@ -1,0 +1,53 @@
+.track-meals-div{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 1rem;
+}
+
+.track-total-div{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    width: 90%;
+    height: 5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.6rem 1.2rem;
+    justify-self: center;
+    align-self: center;
+    background-color: #004AAD;
+}
+
+.track-total-text{
+    font-size: 3rem;
+    color: #fff;
+}
+.track-macro{
+    font-size: 2rem;
+    color: #64B2DF;
+}
+
+.add-meal-button-div{
+    display: flex;
+    padding: 1rem;
+}
+.add-meal-button{
+    background-color: #004AAD;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    width: 10%;
+    border-radius: 1rem;
+    cursor: pointer; 
+}
+.add-meal-button:hover{
+    font-weight: 600;
+}
+.add-meal-button:active{
+    font-weight: 400;
+}

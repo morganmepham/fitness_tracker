@@ -1,0 +1,30 @@
+.navbar-div{
+    height: 4rem;
+    background-color: #64B2DF;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.app-title{
+    justify-self: start;
+    margin-left: 1rem;
+    color: #004AAD;
+    font-size: 2rem;
+}
+
+.nav-item{
+    color: #004AAD;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.main-nav-link{
+    width: 90%;
+    text-align: center;
+}
+
+.main-nav-active{
+    border-bottom: 0.15rem solid #004AAD;
+}

@@ -1,0 +1,31 @@
+.food-navbar{
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: #004AAD;
+    color: #64B2DF;
+    font-size: 2rem;
+    grid-auto-rows: 4rem;
+}
+.food-nav-item{
+    margin-top: 0.5rem;
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.food-nav-active{
+    background-color: #fff;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor:default;
+}
