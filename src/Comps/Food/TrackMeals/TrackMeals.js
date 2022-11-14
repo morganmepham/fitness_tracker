@@ -1,4 +1,4 @@
-import TrackBreakfast from '../TrackBreakfast/TrackBreakfast';
+import TrackBreakfast from './TrackBreakfast/TrackBreakfast';
 import './TrackMeals.css'
 
 const TrackMeals = () => {

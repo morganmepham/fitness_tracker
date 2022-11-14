@@ -1,0 +1,117 @@
+.add-meals-div{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.add-meal-form{
+    margin-top: 3rem;
+    height: fit-content;
+    min-height: 25rem;
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 7.5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.meal-name-input{
+    grid-column: 1/5;
+    height: 50%;
+    width: 90%;
+    border: none;
+    border-bottom: 0.2rem solid #004AAD;
+    font-size: 2rem;
+    color: #64B2DF;
+}
+.meal-name-input:focus{
+    outline: none;
+}
+
+
+.add-meal-details-display-div{
+    grid-column: 1/7;
+    padding: 0.4rem;
+    width: 95%;
+    height: 60%;
+    background-color: #64B2DF;
+    color: #004AAD;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.add-meal-details-text{
+    justify-self: end;
+}
+.g-text{
+    justify-self: start;
+}
+
+.add-meal-input{
+    padding: 0.5rem;
+    width: 70%;
+    height: 60%;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    
+}
+.add-meal-input:focus,
+.add-meal-type-input:focus{
+    outline: none;
+}
+
+
+.add-meal-buttons{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: start;
+    margin: 2rem;
+    width: 70%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.add-meal-cancel{
+    background-color: #dd5353;
+    border: none;
+    color: #fff;
+    height: 40%;
+    width: 80%;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+.add-meal-confirm{
+    grid-column: 3/4;
+    background-color: #64B2DF;
+    border: none;
+    color: #fff;
+    height: 40%;
+    width: 80%;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+}
+.add-meal-cancel:hover,
+.add-meal-confirm:hover{
+    font-weight: 600;
+}
+.add-meal-cancel:active,
+.add-meal-confirm:active{
+    font-weight: 500;
+}
+.add-meal-type-input{
+    grid-column: 13/15;
+    width: 90%;
+    height: 50%;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    padding-left: 0.3rem;
+}

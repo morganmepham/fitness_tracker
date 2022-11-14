@@ -1,0 +1,49 @@
+.my-meals-div{
+    height: fit-content;
+}
+
+.my-meals-buttons-div{
+    margin-top: 4rem;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.my-meals-button{
+    background-color: #64B2DF;
+    color: #004AAD;
+    border: none;
+    height: 50%;
+    width: 85%;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.my-meals-button:hover{
+    font-weight: 600;
+}
+.my-meals-button-active{
+    background-color: #004AAD;
+    color: #fff;
+    cursor: default;
+    font-weight: 600;
+}
+.my-meals-button-add{
+    width: 50%;
+    justify-self: end;
+    margin-right: 2rem;
+    background-color: #004AAD;
+    color: #fff;
+}
+.my-meals-button-add:active{
+    font-weight: 500;
+}
+
+.my-meals-display-div{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+
+    
+}

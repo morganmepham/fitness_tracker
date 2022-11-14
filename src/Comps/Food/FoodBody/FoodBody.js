@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import FoodNav from '../FoodNav/FoodNav';
+import MyMeals from '../MyMeals/MyMeals'
 import TrackMeals from '../TrackMeals/TrackMeals';
 import './FoodBody.css'
 
@@ -15,7 +16,7 @@ const FoodBody = () => {
             
             {trackActive && <TrackMeals /> }
 
-            {mealsActive && <p>Hello2</p>}
+            {mealsActive && <MyMeals />}
 
             {guideActive && <p>Hello3</p>}
         </div>
